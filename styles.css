@@ -1,0 +1,551 @@
+
+header{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 15px;
+    background-image: url(img/net.jpg);
+    border: 5px solid rgb(0, 0, 0);
+    
+}
+header .title{
+    font-size: 30px;
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    z-index: 1000;
+    color: rgb(255, 23, 23);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 10px;
+}
+
+nav{
+    padding-left: 5%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    top: 15px 0;
+    box-sizing:content-box;
+    line-height: 30px;
+}
+
+nav ul{
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+nav li{
+
+    padding : 10px ; 
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+    
+}
+
+.banner .navbar-2 {
+    position: absolute;
+    top: 100%;
+    
+}
+
+.navbar-2 ul{
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.navbar-2 li{
+    padding : 10px ;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: rgb(113, 113, 113, 0.5);
+
+}
+
+li:hover{
+    background-color:rgba(255, 255, 255, 0.2) ;
+}
+
+.banner{
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 30px;
+}
+
+.banner img{
+    
+    max-width: 100%;
+}
+
+.banner div{
+    max-width: 65%;
+    position: absolute;
+    padding: 5px;
+    top: 15%;  
+    left: 15%;
+}
+
+.banner p{
+    font-size: 100px;
+    line-height: 1.4;
+    padding: 20px;
+    font-family: helvetica neue,open sans,sans-serif;
+    color: rgb(224, 224, 224);
+    border: 5px solid rgb(127, 127, 127);
+    border-radius: 10px;
+    background-color: rgba(49, 49, 49, 0.6) ;
+}
+
+.banner p a{
+    font-size: 80px;
+    padding: 20px;
+    font-weight: 300; 
+    color: rgb(255, 48, 48);
+    opacity: 100%;
+    border: 2px solid rgb(94, 94, 94);
+    border-radius: 10px;
+    text-decoration: none;
+    
+    
+}
+
+a:hover{
+    
+    border-radius: 10px;
+    background-color: rgb(91, 91, 91, 0.5);
+
+}
+
+.mainblock {
+    
+    font-family: helvetica neue,open sans,sans-serif;
+    color: gray;
+    font-size: 24px;
+    text-align: center;
+    
+}
+.mainblock h3{
+    text-decoration: 4px underline gray;
+    position: relative;
+    font-size: 37px;  
+    color: black; 
+}
+.mainblock .info{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 254, 227);
+    padding:10px;
+    left: 3%;
+    border: 2px solid rgb(199, 179, 0);
+    
+
+}
+.mainblock .info p{
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+}
+.mainblock .info span{
+    font-size: 20px;
+    color: rgb(73, 72, 72);
+    font-weight:700;
+    
+}
+.framework{
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+
+footer div{
+    
+    text-align: center;
+    width: 99%;
+    border: 5px solid black;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    margin: 0px 0px;
+    background-color: rgb(80, 80, 80);
+    font-family: helvetica neue,open sans,sans-serif;
+
+}
+footer p{
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+    
+}
+@media screen and (min-width:1150px) {
+    .banner .navbar-2{
+        display: none;
+        
+    }
+    
+}
+@media screen and (max-width:1670px){
+    
+    .banner p{
+        font-size: 90px;
+    }
+    .banner p a{
+        padding: 10px;
+        font-size: 80px;
+    }
+    .mainblock .info{
+        padding:10px;
+        left: 4%;            
+    }
+    .mainblock .info p{
+        font-size: 18px;
+    }
+    .mainblock .info span{
+        font-size: 18px;
+    }
+
+    
+}
+@media screen and (max-width:1443px){
+    
+    .banner p{
+        font-size: 80px;
+    }
+    .banner p a{
+        padding: 10px;
+        font-size: 90px;
+    }
+    
+    .mainblock .info{
+        padding:10px;
+        left: 4%;            
+    }
+    .mainblock .info p{
+        font-size: 15px;
+    }
+    .mainblock .info span{
+        font-size: 15px;
+    }
+
+    
+}
+@media screen and ( max-width:1342px) {
+    
+    .banner div{
+        top: 20%;  
+    }
+    .banner p{
+        font-size: 60px;
+    }
+    .banner p a{
+        padding: 8px;
+        font-size: 70px;
+    }
+}
+@media screen and ( max-width:1190px) {
+    .mainblock .info{
+        padding:10px;
+        left: 4%;            
+    }
+    .mainblock .info p{
+        font-size: 14px;
+    }
+    .mainblock .info span{
+        font-size: 14px;
+    }
+    footer p{
+        font-size: 20px;
+
+    }
+}
+@media screen and (max-width:1150px) {
+    header{
+        padding: 50px;
+        
+    }
+    header .title{
+        top: 2%;
+        left: 40%;
+        
+    }
+    .navbar{
+        display: none;
+        
+    }
+    .banner .navbar-2{
+        top: 12%;
+        left: 8%;
+    }
+    .navbar-2 li{
+        font-size:20px;
+    }
+
+    .banner div{
+        top: 25%;  
+    }
+    .banner p{
+        font-size: 50px;
+    }
+    .banner p a{
+        padding: 8px;
+        font-size: 60px;
+    }
+    .mainblock .info{
+        padding:10px;
+        left: 4%;   
+    }
+    .mainblock .info span{
+        font-size: 14px;
+    }
+    .mainblock .info p{
+        font-size: 14px;
+    }
+    .mainblock{
+        font-size: 24px;
+        
+    }
+    .mainblock h3{
+        font-size: 37px;
+    }
+    
+    footer p{
+        font-size: 20px;
+
+    }
+
+}
+@media screen and (max-width:1011px) {
+    header{
+        padding: 50px;
+        
+    }
+    header .title{
+        top: 4%;
+        left: 40%;
+        font-size: 20px;
+        
+    }
+    .banner .navbar-2{
+        top: 12%;
+    }
+    .navbar-2 li{
+        font-size:15px;
+    }
+    .banner p{
+        font-size: 40px;
+    }
+    .banner p a{
+        padding: 5px;
+        font-size: 50px;
+    }
+    .mainblock .info{
+        padding:10px;
+        left: 4%;   
+    }
+    .mainblock .info span{
+        font-size: 14px;
+    }
+    .mainblock .info p{
+        font-size: 14px;
+    }
+    .mainblock{
+        font-size: 24px;
+        
+    }
+    .mainblock h3{
+        font-size: 33px;
+    }
+    
+    footer p{
+        font-size: 16px;
+
+    }
+    
+}
+@media screen and (max-width:980px) {
+    .banner div{
+        top: 30%;
+        max-width: 40%;
+    }
+    .banner p{
+        font-size: 30px;
+    }
+    .banner p a{
+        padding: 2px;
+        font-size: 40px;
+    }
+    .mainblock .info{
+        padding:10px;
+        left: 2%;            
+    }
+    .mainblock{
+        font-size: 20px;
+        
+    }
+    .mainblock h3{
+        font-size: 29px;
+    }
+    
+    footer p{
+        font-size: 12px;
+
+    }
+    
+}
+@media screen and (max-width:897px) {
+    .banner div{
+        top: 30%;
+        max-width: 50%;
+    }
+    .banner p{
+        font-size: 25px;
+    }
+    .banner p a{
+        padding: 2px;
+        font-size: 30px;
+    }
+    .mainblock .info{
+        left: 1%;
+    }
+    .mainblock{
+        font-size: 16px;
+        
+    }
+    .mainblock h3{
+        font-size: 25px;
+    }
+    footer p{
+        font-size: 10px;
+
+    }
+    .banner .navbar-2{
+        top: 13%;
+        left: 8%;
+    }
+    .navbar-2 li{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:811px) {
+    .banner div{
+        top: 30%;
+        max-width: 50%;
+    }
+    .banner p{
+        font-size: 30px;
+    }
+    .banner p a{
+        padding: 2px;
+        font-size: 25px;
+    }
+    .mainblock .info{
+        left: 0%;
+        padding: 2px;
+    }
+    
+    .banner .navbar-2{
+        top: 14%;
+        left: 5%;
+    }
+    .navbar-2 li{
+        font-size:14px;
+        padding: 3px;
+    }
+    header{
+        padding: 40px;
+        
+    }
+    header .title{
+        top: 2%;
+        left: 40%;
+        font-size: 16px;
+        
+    }
+}
+
+@media screen and (max-width:706px) {
+    .banner div{
+        top: 30%;
+        max-width: 65%;
+    }
+    
+    .banner p a{
+        padding: 2px;
+        font-size: 30px;
+    }
+    .mainblock .info{
+        left: 0%;
+        padding: 2px;
+    }
+    
+    .banner .navbar-2{
+        top: 14%;
+        left: 5%;
+    }
+    .navbar-2 li{
+        font-size:14px;
+        padding: 3px;
+    }
+    header{
+        padding: 40px;
+        
+    }
+    header .title{
+        top: 2%;
+        left: 40%;
+        font-size: 16px;
+        
+    }
+}
+@media screen and (max-width:380px) {
+    header{
+        padding: 19px;
+        
+    }
+    header .title{
+        padding: 4px;
+        top: 5%;
+        left: 20%;
+        font-size: 10px;
+        
+    }
+    .banner div{
+        top: 20%;
+        max-width: 65%;
+    }
+    .banner p{
+        font-size: 12px;
+
+
+    }
+    .banner p a{
+        padding: 1px;
+        font-size: 8px;
+    }
+    .mainblock .info{
+        left: 0%;
+        padding: 2px;
+    }
+    
+
+    
+}
